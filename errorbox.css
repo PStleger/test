@@ -1,0 +1,78 @@
+html body {
+  background-color: rgb(1, 128, 128);
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.greybox {
+  display: flex;
+  box-sizing: border-box;
+  height: 25vh;
+  width: 50vh;
+  background-color: #929292;
+  border-style: solid;
+  border-top: 1px solid white;
+  border-left: 1px solid white;
+}
+.error {
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  background: linear-gradient(-45deg, #9fc8f2, #5e7fb7 50%, #0f266f);
+  height: 3vh;
+  width: 100%;
+  padding: 0;
+}
+
+.Please {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: small;
+  color: #000000;
+  min-width: 20px;
+  max-width: 260px;
+  width: 260px;
+  padding: 5px;
+  margin: 0px;
+  margin-block-end: 0px;
+  max-height: 50px;
+}
+.headline {
+  display: inline;
+  font-size: small;
+  font-weight: 800;
+  color: white;
+  margin-left: 2px;
+  padding: 4px;
+}
+.icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 85%;
+  margin: 5px;
+}
+.button {
+  display: flex;
+  align-items: end;
+  justify-content: center;
+  box-sizing: border-box;
+  height: 3vh;
+  width: 10vh;
+  background-color: #929292;
+  border-style: solid;
+  border-top: 1px solid white;
+  border-left: 1px solid white;
+  padding: 0px;
+}
+.Lets {
+  display: flex;
+  font-size: small;
+  color: rgb(0, 0, 0);
+  margin: 0px;
+  padding: 0px;
+}
